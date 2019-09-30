@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us | G-Watch</title>
+</head>
+<body>
+    <h1>G-Watch</h1>
+    <!-- this is the navigation bar -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="Index.html">Home</a>
+        <a class="navbar-brand" href="shopping.html"> Shopping </a>
+        <a class="navbar-brand" href="About.html"> About</a>
+        <a class="navbar-brand" href="ContactUs.html"> Contact Us</a>
+    </nav>
+        <!-- this asks for your emails, password and also additional things like checkbox. -->
+        <div class="form-group">
+            <label for="InputEmail1">Email address</label>
+            <input type="email" class="form-control" id="InputEmail1"  placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Tis a Secret Muahahah</small>
+        </div>
+        <div class="form-group">
+            <label for="InputPassword1">Password</label>
+            <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+        </div>
+        <!-- making radio buttons for gender -->
+        <form class="radio">
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+          </form>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!-- header  -->
+    <h2>Previous Customer reviews</h2>
+    <div class="review">
+      <!-- table for reviews and names -->
+    <table style="width:100%">
+        <tr>
+          <th>Name</th>
+          <th>Review</th> 
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>First Shop I can actually trust!</td>
+           <td> <span class="fa fa-star checked"></span>
+            <!-- actualy rating stars. -->
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Excellent Quality!</td>
+          <td><span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked "></span>
+        <span class="fa fa-star checked"></span>
+        </td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Best watches i've ever seen!</td>
+          <td>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <a href="https://m.wikihow.com/Write-a-Review">Writing a Review</a><br>
+    <a href="https://www.msc.com/zaf">Shipping Company</a>
+</body>
+<footer>
+    <!-- makes a link so when clicked, it jumps back to the top -->
+        <a href="#">Back to Top</a>
+        <p class="copyright">Copyright &copy; G-Watch 2019</p>
+</footer>
+</html>

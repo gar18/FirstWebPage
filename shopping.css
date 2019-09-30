@@ -1,0 +1,120 @@
+/* customising the background */
+body {
+  padding: 2%;
+  background: url(https://45n0pr1wpm3ox9mbl3x0rhco-wpengine.netdna-ssl.com/wp-content/uploads/fly-images/39928/ZENITH_Pilot-Type-20-Extra-Special-Silver-2-9999x700.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navbar-brand {
+  color: rgb(31, 224, 47);
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-brand:hover {
+  color: rgb(32, 240, 94);
+}
+/* Customizing the images */
+/* Thumbnail is a term used by graphic designers and photographers for a small image representation of a larger image,
+ usually intended to make it easier and faster to look at or manage a group of larger images */
+.img-thumbnail {
+  /* making it responsive, meaning whatever device you're on, it will scale down the image or scale up. */
+  height: 100%;
+  width: auto;
+  border-style: solid;
+  border-radius: 2rem;
+}
+.img-thumbnail:hover {
+  background: grey;
+}
+.idk {
+  border-style: groove;
+  color: black;
+}
+.idk:hover {
+  background: black;
+  color: whitesmoke;
+}
+/* makes the heading move to the center */
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+/* header hovering effect */
+h1:hover {
+  color: rgb(73, 71, 71);
+}
+/* headers 2 and 5 */
+h2,
+h5 {
+  color: black;
+  font-weight: bold;
+}
+/* for the email and password */
+.form-group {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+/* radio buttons */
+.radio {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+.heading {
+  padding-top: 10%;
+  border-style: double;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+}
+/* for tables */
+.row {
+  width: 100%;
+}
+/* when the item is hovered, the back ground and text color changes. */
+.heading:hover {
+  background: black;
+  color: whitesmoke;
+}
+.hoverTable {
+  width: 100%;
+}
+.hoverTable td {
+  padding: 7px;
+  border: #666768 1px solid;
+}
+/* Define the default color for all the table rows */
+.hoverTable tr {
+  background: #b8d1f3;
+}
+/* Define the hover highlight color for the table row */
+.hoverTable tr:hover {
+  background-color: black;
+  color: white;
+}
+.review {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+}
+.checked {
+  color: orange;
+}
+/* this customizes the copyright part at the bottom */
+footer {
+  position: bottom;
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}

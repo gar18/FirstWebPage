@@ -1,0 +1,130 @@
+/* defaulting everything */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* customising the header so it can be in the center */
+#header {
+  text-align: center;
+  padding-top: 0.4rem;
+  font-size: 4rem;
+  color: black;
+  font-weight: 400;
+}
+/* customising the header under G-Watch */
+#header2 {
+  text-shadow: 2px 2px rgb(36, 236, 56);
+  color: black;
+  font-style: italic;
+  font-size: 3rem;
+}
+/* customising the sentence under the header */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: black;
+  color: rgb(31, 224, 47);
+}
+/* the navigation bar */
+.navbar-brand {
+  color: rgb(31, 224, 47);
+  font-weight: 300;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-brand:hover {
+  color: rgb(171, 23, 240);
+}
+/* the paragraph custom */
+p {
+  margin: 0.5rem 0;
+  color: black;
+  font-weight: 300;
+  font-style: italic;
+}
+/* background */
+img {
+  width: 100%;
+}
+/* these are modifying all the words  */
+.showcase {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(Home.jpg) no-repeat center center/cover;
+}
+.showcase-top {
+  position: relative;
+  height: 90px;
+}
+/* moving the image to center */
+.showcase-top img {
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* custom button */
+.showcase-top a {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+.showcase-content {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+.showcase-content p {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin: 0 0 2rem;
+  color: rgb(2, 1, 1);
+}
+.showcase-content h1 {
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 1.1;
+  margin: 0 0 2rem;
+}
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  background: black;
+  color: rgb(31, 224, 47);
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: none;
+  box-shadow: 0 1px 0 rgb(31, 224, 47);
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-rounded {
+  border-radius: 5px;
+}
+.btn-xl {
+  font-size: 2rem;
+  padding: 1.5rem 2.1rem;
+  text-transform: uppercase;
+}
+.btn-lg {
+  font-size: 1rem;
+  padding: 0.8rem 1.3rem;
+  text-transform: uppercase;
+}
